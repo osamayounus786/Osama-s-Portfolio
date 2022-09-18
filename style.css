@@ -125,6 +125,69 @@ header{
 
 
 
+/* about  */
+.trans-about h2{
+    font-size: 5rem;
+    font-weight: 800;
+    opacity: 0.1;
+    color: #99989d;
+}
+.about h3 {
+    text-align: center;
+    margin-top: -2.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.about h4{
+    text-align: center;
+    color: #99989d;
+}
+.about img{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+.progarea {
+    margin-top: 15.2rem;
+    position: relative;
+}
+.progress {
+    position: relative;
+    width: 100%;
+    height: 2.2rem;
+    background-color: #99989d;
+    margin-top: 1.7rem;
+    border-radius: 2rem;
+}
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+.progress .bar span {
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.about form{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+/* about end */
+
+
+
+
+
+
 
 
 
