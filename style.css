@@ -126,20 +126,23 @@ header{
 
 
 /* about  */
-.trans-about h2{
+.about{
+    margin-top: 4rem;
+}
+.trans-about h2, .trans-skills h2{
     font-size: 5rem;
     font-weight: 800;
     opacity: 0.1;
     color: #99989d;
 }
-.about h3 {
+.about h3, .skills h3 {
     text-align: center;
     margin-top: -2.3rem;
     font-weight: 600;
     text-transform: uppercase;
     opacity: 0.8;
 }
-.about h4{
+.about h4, .skills h4{
     text-align: center;
     color: #99989d;
 }
@@ -176,14 +179,180 @@ header{
     color: #fff;
     font-size: 1.4rem;
 }
-.about form{
+.about form {
     margin-top: 10px;
     display: flex;
     justify-content: center;
 }
+.download-btn{
+    background-color: #6e57e0;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 1.8rem;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+}
+.progress-bar{
+    background-color: #6e57e0;
+}
 /* about end */
 
 
+
+
+
+
+
+
+
+
+
+
+/* Skills */
+.skills{
+    margin-top: 4rem;
+    height: 100vh;
+}
+.skills-heading{
+    font-size: 1.6rem;
+}
+.skills-display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skills-row h6{
+text-align: center;
+}
+.skills-row{
+    margin-top: 4rem;
+}
+.circle-wrap {
+   
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+  }
+  
+  .circle-wrap .circle .mask,
+  .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+  }
+  
+  .circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #1e51dc;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+  
+  /* color animation */
+  
+  /* 3rd progress bar */
+  .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #227ded;
+  }
+  
+  .mask.full,
+  .circle .fill  {
+    animation: fill ease-in-out 3s;
+    transform: rotate(155deg);
+  }
+  
+  @keyframes fill{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(155deg);
+    }
+  }
+                    /* css */
+                    .mask-css.full-css,
+  .circle-css .fill-css  {
+    animation: fill-css ease-in-out 3s;
+    transform: rotate(135deg);
+  }
+  
+  @keyframes fill-css{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(135deg);
+    }
+  }
+                /* bootstrap */
+    .mask-bs.full-bs,
+  .circle-bs .fill-bs  {
+    animation: fill-bs ease-in-out 3s;
+    transform: rotate(125deg);
+  }
+  
+  @keyframes fill-bs{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(125deg);
+    }
+  }
+            /* javascript */
+            .mask-js.full-js,
+  .circle-js .fill-js  {
+    animation: fill-js ease-in-out 3s;
+    transform: rotate(115deg);
+  }
+  
+  @keyframes fill-js{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(115deg);
+    }
+  }
+
+
+        /* firebase */
+  .mask-firebase.full-firebase,
+  .circle-firebase .fill-firebase  {
+    animation: fill-firebase ease-in-out 3s;
+    transform: rotate(110deg);
+  }
+  
+  @keyframes fill-firebase{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(110deg);
+    }
+  }
+/* Skills end */
 
 
 
