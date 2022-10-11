@@ -42,6 +42,7 @@ header{
     padding-left: 300px;
     padding-right: 300px;
 }
+
 .banner h1{
     font-size: 3rem;
     font-weight: bold;
@@ -219,12 +220,12 @@ header{
 .skills-heading{
     font-size: 1.6rem;
 }
-.skills-display{
+/* .skills-display{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-}
+} */
 .skills-row h6{
 text-align: center;
 }
@@ -361,7 +362,7 @@ text-align: center;
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 575px) {
     /* header */
     header{
         padding-left: 0px;
