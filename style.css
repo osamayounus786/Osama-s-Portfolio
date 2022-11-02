@@ -220,6 +220,9 @@ header{
 .skills-heading{
     font-size: 1.6rem;
 }
+.skills-m{
+  margin-bottom: 60px;
+}
 /* .skills-display{
     display: flex;
     flex-direction: row;
@@ -384,18 +387,26 @@ text-align: center;
         font-size: 1.5rem;
     }
     .social-links{
-        display: none;
+        /* display: none; */
+        flex-direction: row;
+        margin-bottom: 20px;
     }
     .banner-btn{
         font-size: 0.8rem;
     padding: 0.5rem 1rem;
     }
     .osama-img{
-        display: none;
+        /* display: none; */
     }
     .container_mouse{
         display: none;
     }
+    /* introduction */
+    .about img{
+      width: 350px;
+      height: 350px;
+      
+  }
 }
 
 
