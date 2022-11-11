@@ -2,6 +2,7 @@
     font-family: sans-serif;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 /* scrollable with js */
 .active_nav{
@@ -42,6 +43,8 @@ header{
     padding-left: 300px;
     padding-right: 300px;
 }
+/* text animation */
+/* text animation */
 
 .banner h1{
     font-size: 3rem;
